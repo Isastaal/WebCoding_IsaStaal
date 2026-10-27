@@ -1,0 +1,292 @@
+#header {
+    width: 100%;
+    height: 70px;
+    z-index: 1000;
+    position: fixed;
+    background-color: rgba(255, 255, 255, 0.9);   
+}
+
+#header #typo {
+    background-color: #ff6200;
+    height: 60px; 
+    width: 200px; 
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    color: white; 
+    text-align: center; 
+    vertical-align: middle;
+    line-height: 60px;
+    font-size: 25px;
+    float: left;
+    border: 5px solid rgba(255, 255, 255, 0.8);
+}
+
+#header #hamburger {
+    background-color: rgb(213, 213, 213);
+    border:none;
+    color:white;
+    margin: 7px 4px;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+}
+
+#header #hamburger img {
+    display: block;
+    margin-top: 14px;
+    margin-left: 14px;
+    width: 50%;
+    height: auto;
+}
+
+#header #search {
+    background-color: rgb(213, 213, 213);
+    border:none;
+    color:white;
+    margin: 7px 4px;
+    border-radius: 50%;
+    float: right;
+    overflow: hidden;
+    width: 55px;
+    height: 55px;
+}
+
+#header #search img{
+    display: block;
+    margin-top: 18px;
+    margin-left: 18px;
+    width: 35%;
+    height: auto;
+}
+
+#header #login {
+    background-color: rgb(213, 213, 213);
+    border:none;
+    color: black;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    padding: 20px;
+    margin: 6px 4px;
+    border-radius: 50px;
+    float: right;
+}
+
+#nav {
+    border-radius: 25px;
+    background-color: #FF6600;
+    grid-column: 1 / 2;
+    grid-row: 2 / 4;
+    background-image: url(img/layera.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#nav p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#nav:hover .hovertext {
+    display: block;
+}
+
+#storyleft {
+    grid-column: 1 / 7;
+    grid-row: 1 / 2;
+    background-image: url(img/cover-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+}
+
+#storyleft p {
+    padding-top: 520px;
+    padding-left: 10px;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+#storyleft .zed {
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 50px;
+    font-size: 150px;
+    color: white;
+}
+
+#storyright {
+    border-radius: 25px;
+    background-color: black;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    background-image: url(img/colorwheel.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#storyright p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+#storyright:hover .hovertext {
+    display: block;
+}
+
+#article1 {
+    border-radius: 25px;
+    background-color: #B5EDFF;
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+    background-image: url(img/superfamilie.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#article1 p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#article1:hover .hovertext {
+    display: block;
+}
+
+#article2 { 
+    border-radius: 25px;
+    background-color: #FFBACF;
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    background-image: url(img/variablefonts.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#article2 p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold; 
+}
+
+#article2:hover .hovertext {
+    display: block;
+}
+
+#article3 {
+    border-radius: 25px;
+    background-color: #BEA174;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-image: url(img/legibility.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#article3 p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#article3:hover .hovertext {
+    display: block;
+}
+
+#article4 {
+    border-radius: 25px;
+    background-color: #00B6DE;
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+    background-image: url(img/smartfonts.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+#article4 p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#article4:hover .hovertext {
+    display: block;
+}
+
+#article5 {
+    border-radius: 25px;
+    background-color: #FF4D00;
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+    background-image: url(img/opticalsizes.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+} 
+
+#article5 p {
+    padding-top: 5px;
+    padding-left: 15px;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#article5:hover .hovertext {
+    display: block;
+}
+
+body {    
+    display: grid;
+    grid-template-columns: 24vw 24vw 24vw 24vw;
+    grid-template-rows: 85vh 30vh 30vh;
+    gap: 5px; 
+}
+
+.hovertext {
+    position: absolute;
+    bottom: 0.75rem;
+    right: 0.75rem;
+    font-family: "November", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    display: none;
+}
+
+.gridlink {
+    position: absolute;
+    inset: 0;
+}
+
+#storyright .hovertext {
+    color: white;
+}
